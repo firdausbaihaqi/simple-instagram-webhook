@@ -104,9 +104,9 @@ async function handleWebhookEvent(req: Request) {
                 }
             } else if (entry.messaging) {
                 for (const message of entry.messaging) {
-                    console.log("Received message:");
-                    console.log(JSON.stringify(message, null, 2));
-                    console.log('----------------------------------------------------------')
+                    // console.log("Received message:");
+                    // console.log(JSON.stringify(message, null, 2));
+                    // console.log('----------------------------------------------------------')
                 }
             } else {
                 console.log("Unhandled entry type:");
